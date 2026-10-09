@@ -1,0 +1,40 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: #173F35;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: #D6A84F;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #D6A84F;
+        }
+
+        main {
+            min-height: 300px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background: #173F35;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
